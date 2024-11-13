@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Agencia de viajes</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="bg-blue-500 text-white py-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-3xl font-bold">Comparativa</h1>
+            <nav class="mt-4">
+                <a href="viajes.html" class="text-white hover:underline mx-4" onclick="showSection('inicio')">Inicio</a>
+                <a href="tabla.html" class="text-white hover:underline mx-4" onclick="showSection('catalogo')">Comparativa</a>
+                <a href="contacto.html" class="text-white hover:underline mx-4" onclick="showSection('contacto')">Contáctanos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Table Section -->
+    <div class="table">
+        <div class="row-head">
+            <div class="cell">Destino</div>
+            <div class="cell">Ubicación</div>
+            <div class="cell">Características principales</div>
+            <div class="cell">Actividades recomendadas</div>
+        </div>
+
+        <!-- Destination Card 1: Pinamar -->
+        <div class="row">
+            <div class="cell">Pinamar</div>
+            <div class="cell">Costa atlántica de Argentina</div>
+            <div class="cell">Playas amplias, arena fina, bosques de pinos, ambiente natural y relajante.</div>
+            <div class="cell">Disfrutar del sol, deportes acuáticos, vida nocturna.</div>
+        </div>
+
+        <!-- Destination Card 2: Bariloche -->
+        <div class="row">
+            <div class="cell">Bariloche</div>
+            <div class="cell">Patagonia, Argentina</div>
+            <div class="cell">Paisajes de montañas, lagos y bosques, arquitectura alpina, chocolates artesanales.</div>
+            <div class="cell">Esquí, senderismo, actividades al aire libre.</div>
+        </div>
+
+        <!-- Destination Card 3: Córdoba -->
+        <div class="row">
+            <div class="cell">Córdoba</div>
+            <div class="cell">Centro de Argentina</div>
+            <div class="cell">Herencia colonial, edificios históricos, vida cultural vibrante, centro universitario. Sierras de Córdoba con ecoturismo.</div>
+            <div class="cell">Visitar sitios históricos, ecoturismo, actividades de aventura.</div>
+        </div>
+
+        <!-- Destination Card 4: Buenos Aires -->
+        <div class="row">
+            <div class="cell">Buenos Aires</div>
+            <div class="cell">Capital de Argentina</div>
+            <div class="cell">Metrópolis vibrante, arquitectura europea, barrios únicos, tango, centro cultural y gastronómico diverso.</div>
+            <div class="cell">Recorrer barrios, disfrutar de la gastronomía, arte y tango.</div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

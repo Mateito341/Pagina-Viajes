@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Agencia de viajes</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="bg-blue-500 text-white py-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-3xl font-bold">Inicio</h1>
+            <nav class="mt-4">
+                <a href="viajes.html" class="text-white hover:underline mx-4" onclick="showSection('inicio')">Inicio</a>
+                <a href="tabla.html" class="text-white hover:underline mx-4" onclick="showSection('catalogo')">Comparativa</a>
+                <a href="contacto.html" class="text-white hover:underline mx-4" onclick="showSection('contacto')">Contáctanos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="bg-gray-100 justify-center items-center min-h-screen pr-60 pl-60 pt-10">
+        <div class="grid grid-cols-2 gap-4">
+            
+            <!-- Destination Card 1: Pinamar -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <div class="h-64 overflow-hidden rounded-lg">
+                    <img src="pinamar.jpeg" alt="Pinamar" class="w-full h-full object-cover">
+                </div>
+                <h1 class="text-lg font-semibold mt-4">Pinamar</h1>
+                <p class="mt-2">
+                    Ubicada en la costa atlántica de Argentina, Pinamar es una ciudad balnearia famosa por sus playas amplias, 
+                    arena fina y sus extensos bosques de pinos. Es un destino popular de verano, ideal para disfrutar del sol, 
+                    deportes acuáticos y una animada vida nocturna en temporada alta.
+                </p>
+            </div>
+
+            <!-- Destination Card 2: Bariloche -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <div class="h-64 overflow-hidden rounded-lg">
+                    <img src="bariloche.jpeg" alt="Bariloche" class="w-full h-full object-cover">
+                </div>
+                <h1 class="text-lg font-semibold mt-4">Bariloche</h1>
+                <p class="mt-2">
+                    Situada en la región de la Patagonia, San Carlos de Bariloche es conocida por sus impresionantes paisajes 
+                    de montañas, lagos y bosques. Ideal para el esquí en invierno y actividades al aire libre en verano.
+                    Bariloche también es famosa por su arquitectura estilo alpino y sus deliciosos chocolates artesanales.
+                </p>
+            </div>
+
+            <!-- Destination Card 3: Córdoba -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <div class="h-64 overflow-hidden rounded-lg">
+                    <img src="cordoba.jpeg" alt="Córdoba" class="w-full h-full object-cover">
+                </div>
+                <h1 class="text-lg font-semibold mt-4">Córdoba</h1>
+                <p class="mt-2">
+                    Córdoba es conocida por su rica herencia colonial, sus edificios históricos y su vibrante vida cultural.
+                    La ciudad es un importante centro universitario, y sus sierras ofrecen un entorno ideal para el ecoturismo
+                    y actividades de aventura.
+                </p>
+            </div>
+
+            <!-- Destination Card 4: Buenos Aires -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <div class="h-64 overflow-hidden rounded-lg">
+                    <img src="aires.jpeg" alt="Buenos Aires" class="w-full h-full object-cover">
+                </div>
+                <h1 class="text-lg font-semibold mt-4">Buenos Aires</h1>
+                <p class="mt-2">
+                    Capital de Argentina, Buenos Aires es una metrópolis vibrante y multicultural. Conocida por su arquitectura
+                    europea, barrios como San Telmo y Palermo, y su famoso tango, ofrece una mezcla única de historia, arte y modernidad.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

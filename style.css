@@ -1,0 +1,27 @@
+.table {
+    background-color: #f1fcff;
+    width: 80%; /* Ancho de la tabla */
+    margin: 45px auto; /* Centro la tabla horizontalmente */
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.cell {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid black;
+    display: table-cell; /* Cambiado de flex a table-cell */
+    vertical-align: middle;
+    word-wrap: break-word; /* Permite que el texto se ajuste */
+    width: 25%; /* Distribuye el ancho uniformemente */
+}
+
+.row {
+    display: table-row; /* Cambiado de flex a table-row */
+}
+
+.row-head {
+    display: table-row; /* Cambiado de flex a table-row */
+    background-color: #a5e2f5;
+    font-weight: bold;
+}
